@@ -1,0 +1,22 @@
+{
+  "entry": [
+    "server.js",
+    "api/vpn.js",
+    "assets/app.js",
+    "assets/catalog-vault.js",
+    "assets/forms-utility.js",
+    "assets/renderers.js",
+    "scripts/validate.js",
+    "scripts/build.js",
+    "scripts/pack-zip.js",
+    "tests/*.test.js"
+  ],
+  "project": [
+    "server.js",
+    "api/**/*.js",
+    "lib/**/*.js",
+    "assets/**/*.js",
+    "scripts/**/*.js",
+    "tests/**/*.js"
+  ]
+}
