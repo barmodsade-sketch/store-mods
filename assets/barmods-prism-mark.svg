@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="prismOuter" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="52%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="prismInner" x1="18" y1="14" x2="46" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#07101f" stroke="url(#prismOuter)" stroke-width="2.5"/>
+  <path d="M32 13L50 45H14L32 13Z" fill="url(#prismInner)" stroke="#a5f3fc" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M32 13V45" stroke="#ecfeff" stroke-width="1.6" stroke-opacity="0.8"/>
+  <path d="M22 33H42" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="32" cy="27" r="3.2" fill="#ecfeff"/>
+</svg>
